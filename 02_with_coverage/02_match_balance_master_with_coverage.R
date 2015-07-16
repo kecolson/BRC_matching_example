@@ -79,7 +79,7 @@ if (cluster==T) {
   mpi.bcast.Robj2slave(ESTIMATORS)  
   mpi.bcast.Robj2slave(outer.loop)
   mpi.bcast.Robj2slave(index)
-  mpi.bcase.Robj2slave(B)
+  mpi.bcast.Robj2slave(B)
   mpi.bcast.Robj2slave(pop)
   mpi.bcast.Robj2slave(ss) 
   mpi.bcast.Robj2slave(ATT)  
